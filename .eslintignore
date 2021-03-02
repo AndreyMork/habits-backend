@@ -1,0 +1,7 @@
+node_modules
+coverage
+temp
+dist
+jest.config.js
+docs
+stryker.conf.js

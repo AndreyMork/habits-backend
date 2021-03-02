@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  habits-backend:
+    image: habits-backend:latest
+    restart: unless-stopped
+    env_file:
+      - ./.env
+    ports:
+      - '${PUBLISH_PORT}:4000'
